@@ -34,10 +34,13 @@ public class SimpleStringGroup {
     }
 
     public void delete(String string) {
+        stringlist.remove(string);
 
     }
 
     public void clear() {
+        stringlist.clear();
+
     }
 
 //    @Override
