@@ -9,9 +9,13 @@ import java.util.List;
  */
 public class SimpleStringGroup {
     List<String> stringlist;
+
     public SimpleStringGroup() {
-        throw new UnsupportedOperationException("Method not yet implemented");
+        stringlist = new ArrayList<>();
     }
+//    public SimpleStringGroup() {
+//        throw new UnsupportedOperationException("Method not yet implemented");
+//    }
 
     public Integer count() {
         return stringlist.size();
